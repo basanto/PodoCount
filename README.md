@@ -18,3 +18,13 @@ Whole slide images (WSIs) of murine kidney data are available at: http://bit.ly/
 This code runs using python3.
 
 ## Dependencies
+
+- argparse [1.1]
+- cv2 [4.1.2]
+- lxml.etree [4.5.0]
+- matplotlib [3.3.4]
+- numpy [1.18.1]
+- openslide-python [1.1.1]
+- pandas [0.25.3]
+- scikit-image [0.17.2]
+- scipy [1.5.4]
