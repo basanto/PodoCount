@@ -54,5 +54,3 @@ Run the main script "podocount_main_serv.py", providing the necessary flags belo
 - [--cohort] set to the dataset or experiment name
 - [--section_thickness] set to the tissue section thickness (an integer value within the range [1,15])
 - [--num_sections] flag set to the number of tissue sections per slide (for WSIs of murine whole kidney sections options are 1 or 2; for human biopsy data, set to 1).
-
-### Instructional video
