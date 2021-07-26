@@ -37,8 +37,12 @@ This code runs using python3.
 - time
 - warnings
 
-## Usage
+## Usage: running PodoCount from your own computer
 
 The pipeline is run using: podocount_main_serv.py
 
+Download the codes folder from gitHub titled either "PodoCount_Mouse_Analysis" or "PodoCount_Human_Analysis." Within the codes folder are two distinct subfolders entitled "WSIs" and "glom_xmls". Place WSIs for pipeline analysis in the "WSIs" folder; acceptable WSI formats include .svs and .ndpi. Place glomerulus annotation files in the "glom_xmls" folder. Glomerulus annotations (.xml files) may be generated through manual annotation or via our lab's H-AI-L tool; a convolutional neural network for glomerulus boundary detection developed by Lutnick et al. Run the main script "podocount_main_serv.py" with the [--ftype] flag set to the WSI file extension, [--slider] flag set to a value [0,3], [--cohort] set to the dataset or experiment name, [--section_thickness] set to the tissue section thickness (an integer value within the range [1,15]), and the [--num_sections] flag set to the number of tissue sections per slide (for WSIs of murine whole kidney sections options are 1 or 2; for human biopsy data, set num_sections to 1).
+
 To run this code you must be in the downloaded pipeline folder, with WSIs and XMLs in the corresponding subfolders. You must also provide the necessary flags (below). 
+
+
