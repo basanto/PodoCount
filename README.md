@@ -37,8 +37,8 @@ This code runs using python3.
 - time
 - warnings
 
-## Usage: running PodoCount from your own computer
-### test
+## Usage: 
+### Running PodoCount from your own computer
 
 The pipeline is run using: podocount_main_serv.py
 
@@ -55,4 +55,4 @@ Run the main script "podocount_main_serv.py", providing the necessary flags belo
 - [--section_thickness] set to the tissue section thickness (an integer value within the range [1,15])
 - [--num_sections] flag set to the number of tissue sections per slide (for WSIs of murine whole kidney sections options are 1 or 2; for human biopsy data, set to 1).
 
-
+### Instructional video
