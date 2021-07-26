@@ -39,6 +39,6 @@ This code runs using python3.
 
 ## Usage
 
-The pipeline is run using: podocount_main_serv.py.
+The pipeline is run using: podocount_main_serv.py
 
 To run this code you must be in the downloaded pipeline folder, with WSIs and XMLs in the corresponding subfolders. You must also provide the necessary flags (below). 
