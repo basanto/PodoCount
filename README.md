@@ -28,3 +28,12 @@ This code runs using python3.
 - pandas [0.25.3]
 - scikit-image [0.17.2]
 - scipy [1.5.4]
+
+## Modules from the Python Standard Library
+
+- glob 
+- os 
+- sys
+- time
+- warnings
+
