@@ -50,6 +50,4 @@ To run this code you must be in the downloaded pipeline folder, with WSIs and XM
 - [--section_thickness] set to the tissue section thickness (an integer value within the range [1,15])
 - [--num_sections] flag set to the number of tissue sections per slide (for WSIs of murine whole kidney sections options are 1 or 2; for human biopsy data, set to 1).
 
-To run this code you must be in the downloaded pipeline folder, with WSIs and XMLs in the corresponding subfolders. You must also provide the necessary flags (below). 
-
 
