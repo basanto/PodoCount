@@ -48,7 +48,7 @@ The code is run by using: podocount_main_serv.py
 to run this code you must be in the "PodoCount_Mouse_Analysis" or "PodoCount_Human_Analysis" directory where it is contained, with WSIs and XMLs provided in the corresponding subfolders. 
 
 Run the main script "podocount_main_serv.py", providing the necessary flags below:
-  [--ftype] flag set to the WSI file extension
+[--ftype] flag set to the WSI file extension
 - [--slider] flag set to a value [0,3]
 - [--cohort] set to the dataset or experiment name
 - [--section_thickness] set to the tissue section thickness (an integer value within the range [1,15])
