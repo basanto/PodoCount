@@ -99,6 +99,7 @@ for WSI in range(len(WSI_dir)):
     WSI_levels = WSI_file.level_dimensions[level]
     downsample_factor=16
     df2 = np.sqrt(downsample_factor)
+    df = downsample_factor
 
     #create output directory
     wsi_roi_dir = roi_dir + WSI_name
@@ -132,7 +133,7 @@ for WSI in range(len(WSI_dir)):
 
     #get ROI coordinates
     print('-- Step 1: Glomerulus localization and quantification --\n')
-    bbs, total_gloms, glom_feat_labels, glom_feat_qty, glom_feat_array = get_glom_props(WSI_glom_mask,WSI_downsample,num_sections,dist_mpp,area_mpp2,df2)
+    bbs, total_gloms, glom_feat_labels, glom_feat_qty, glom_feat_array = get_glom_props(WSI_glom_mask,WSI_downsample,num_sections,dist_mpp,area_mpp2,df2,df)
 
     #define pod feature spaces
     glom_pod_feat_labels, glom_pod_feat_qty, glom_pod_feat_array, indv_pod_feat_labels, indv_pod_feat_qty, indv_pod_feat_array = get_pod_feat_spaces(total_gloms)
